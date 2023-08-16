@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>58ba8b30-d621-4b6f-8108-cfe60e7c353e</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>080ffe52-bafd-4e01-b438-4c9bd206b74f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/loginlist</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>080ffe52-bafd-4e01-b438-4c9bd206b74f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>55cec46a-b978-4918-b2fd-2ccdaba159e3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>080ffe52-bafd-4e01-b438-4c9bd206b74f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>618b9439-10b7-4de5-aa38-8be7f079d33b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>55cec46a-b978-4918-b2fd-2ccdaba159e3</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>618b9439-10b7-4de5-aa38-8be7f079d33b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
